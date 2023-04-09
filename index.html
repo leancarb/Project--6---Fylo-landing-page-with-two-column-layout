@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <img src="images/logo.svg" alt="Fylo logo" class="navbar__logo" />
+      </div>
+      <div class="navbar__elements">
+        <a href="#" class="navbar__element features">Features</a>
+        <a href="#" class="navbar__element team">Team</a>
+        <a href="#" class="navbar__element sign-in">Sign In</a>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero__first-container">
+          <h1 class="hero__heading heading">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p class="hero__paragraph paragraph">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <input
+            placeholder="Enter your email..."
+            type="email"
+            name="email"
+            id="hero-email"
+          />
+          <a href="#" class="hero__btn">Get Started</a>
+        </div>
+        <div class="hero__second-container">
+          <img
+            src="images/illustration-1.svg"
+            alt="illustration-1"
+            id="hero__img"
+          />
+        </div>
+      </section>
+
+      <!-- Testimonial section -->
+      <section class="testimonial">
+        <img
+          src="images/bg-curve-desktop.svg"
+          alt="bg-curve-desktop"
+          id="bg-curve-desktop"
+        />
+        <img
+          src="images/bg-curve-mobile.svg"
+          alt="bg-curve-mobile"
+          id="bg-curve-mobile"
+        />
+        <div class="testimonial__container">
+          <div class="testimonial__first-container">
+            <h2 class="testimonial__heading heading">
+              Stay productive, wherever you are
+            </h2>
+            <p class="testimonial__paragraph paragraph">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p class="testimonial__paragraph paragraph second-paragraph">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+            <div class="testimonial-link">
+              <div class="testimonial-link__flex">
+                <a href="#" class="testimonial__link__text">
+                  See how Fylo works</a
+                >
+                <img
+                  src="images/icon-arrow.svg"
+                  alt="icon-arrow"
+                  class="testimonial__link__img"
+                />
+              </div>
+            </div>
+            <div class="testimonial__blockquote">
+              <div class="testimonial__blockquote__icon-quotes">
+                <img
+                  src="images/icon-quotes.svg"
+                  alt="icon-quotes"
+                  id="icon-quotes"
+                />
+              </div>
+
+              <blockquote class="testimonial__blockquote__quote">
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </blockquote>
+
+              <div class="testimonial__blockquote__person">
+                <div class="testimonial__blockquote__img">
+                  <img
+                    src="images/avatar-testimonial.jpg"
+                    alt="Kyle Burton"
+                    id="testimonial-img"
+                  />
+                </div>
+                <div class="testimonial__blockquote__testimonial">
+                  <p class="testimonial__blockquote__name">Kyle Burton</p>
+                  <p class="testimonial__blockquote__profession">
+                    Founder & CEO, Huddle
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial__second-container">
+            <img
+              src="images/illustration-2.svg"
+              alt="illustration-2"
+              id="testimonial__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Call-to-action section -->
+      <section class="call-to">
+        <div class="call-to__first-container">
+          <h3 class="call-to__heading">Get early access today</h3>
+          <p class="call-to__paragraph">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </div>
+        <div class="call-to__second-container">
+          <input
+            type="email"
+            name="email"
+            id="call-to-email"
+            placeholder="email@example.com"
+          />
+          <a href="#" class="call-to__btn">Get Started For Free</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <img src="images/logo.svg" alt="Fylo logo" id="footer-logo" />
+      <div class="footer__lists">
+        <div class="footer__icon-list">
+          <div class="footer__phone">
+            <img
+              src="images/icon-phone.svg"
+              alt="icon-phone"
+              class="footer__phone-icon"
+            />
+            <p class="footer__phone-text">
+              Phone:
+              <a href="tel:+1-543-123-4567" class="footer__link"
+                >+1-543-123-4567</a
+              >
+            </p>
+          </div>
+          <div class="footer__email">
+            <img
+              src="images/icon-email.svg"
+              alt="icon-email"
+              class="footer__email-icon"
+            />
+            <p class="footer__email-text">
+              <a href="mailto:example@fylo.com" class="footer__link"
+                >example@fylo.com</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="footer__first-list">
+          <ul class="footer__first-list-ul">
+            <li><a href="#" class="footer__link">About Us</a></li>
+            <li><a href="#" class="footer__link">Jobs</a></li>
+            <li><a href="#" class="footer__link">Press</a></li>
+            <li><a href="#" class="footer__link">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__second-list">
+          <ul class="footer__second-list-ul">
+            <li><a href="#" class="footer__link">Contact Us</a></li>
+            <li><a href="#" class="footer__link">Terms</a></li>
+            <li><a href="#" class="footer__link">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer__social-list">
+          <ul class="footer__social-list-ul">
+            <li><i class="lab la-facebook-f"></i></li>
+            <li><i class="lab la-twitter"></i></li>
+            <li><i class="lab la-instagram"></i></li>
+          </ul>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://lean.ar">Leandro Carbonetti</a>.
+      </p>
+    </footer>
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+  </body>
+</html>

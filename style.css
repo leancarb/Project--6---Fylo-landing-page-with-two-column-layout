@@ -1,0 +1,366 @@
+/* Colors */
+/* 
+- Very Dark Blue: 	#070439
+- Desaturated Blue: #585989
+
+- Bright Blue: 	#3065f8
+- Moderate Cyan: #3c9f8f
+
+- Light Grayish Blue: #f6f6fe
+- Light Gray: #bfbfbf
+*/
+
+/* Font size system */
+/* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* Spacing system */
+/*  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem;
+}
+
+.navbar__elements {
+  display: flex;
+  gap: 4.8rem;
+}
+
+.navbar__element {
+  text-decoration: none;
+  color: #070439;
+  font-size: 1.8rem;
+}
+
+/* Main */
+/* Hero section */
+
+.hero {
+  font-family: "Raleway", sans-serif;
+  color: #070439;
+  padding: 8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__heading {
+  font-size: 4.4rem;
+  line-height: 6.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.hero__paragraph {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  padding-right: 4.8rem;
+  margin-bottom: 1.6rem;
+}
+
+#hero-email {
+  padding: 1.5rem 12.8rem 1.5rem 2rem;
+  margin-right: 1.6rem;
+  border-radius: 0.4rem;
+  border: 1px solid #585959;
+}
+
+#hero-email::placeholder {
+  font-family: "Raleway", sans-serif;
+  color: #bfbfbf;
+  font-size: 1.4rem;
+}
+
+.hero__btn {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #f6f6fe;
+  background-color: #3065f8;
+  padding: 1.6rem 8rem;
+  border-radius: 0.4rem;
+  box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+#hero__img {
+  width: 60rem;
+}
+
+/* Testimonial section */
+
+#bg-curve-mobile {
+  display: none;
+}
+
+.testimonial__container {
+  font-family: "Raleway", sans-serif;
+  color: #070439;
+  padding: 8rem;
+  padding-bottom: 9.6rem;
+  background-color: #f8f8fe;
+  padding: 8rem;
+  margin-top: -0.3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial__heading {
+  font-size: 3.6rem;
+  line-height: 6.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial__paragraph {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  padding-right: 8rem;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-link__flex {
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #3c9f8f;
+
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.testimonial-link {
+  display: inline-block;
+  margin-bottom: 3.2rem;
+}
+
+.testimonial__link__text {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #3c9f8f;
+  font-size: 1.8rem;
+}
+
+.testimonial__blockquote {
+  background-color: #fff;
+  width: 40rem;
+  padding: 3.2rem;
+  padding-right: 8rem;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.testimonial__blockquote__quote {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+.testimonial__blockquote__person {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#testimonial-img {
+  border-radius: 50%;
+  width: 3.2rem;
+}
+
+.testimonial__blockquote__name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+#testimonial__img {
+  width: 60rem;
+}
+
+/* Call to action section */
+
+.call-to {
+  font-family: "Raleway", sans-serif;
+
+  background-color: #585989;
+  color: #f6f6fe;
+  padding: 12rem 8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.call-to__first-container {
+  padding-right: 22rem;
+}
+.call-to__heading {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.call-to__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+.call-to__second-container {
+  padding-right: 9.6rem;
+}
+#call-to-email {
+  display: block;
+  padding: 1.5rem 25.6rem 1.5rem 2rem;
+  margin-right: 1.6rem;
+  border-radius: 0.4rem;
+  box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #585959;
+  margin-bottom: 1.6rem;
+}
+
+#call-to-email::placeholder {
+  font-family: "Raleway", sans-serif;
+  color: #bfbfbf;
+  font-size: 1.4rem;
+}
+
+.call-to__btn {
+  display: inline-block;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #f6f6fe;
+  background-color: #3065f8;
+  padding: 1.6rem 4rem;
+  border-radius: 0.4rem;
+  box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+
+.footer {
+  font-family: "Raleway", sans-serif;
+  background-color: #070439;
+  color: #f6f6fe;
+  padding: 12rem 8rem;
+  padding-bottom: 2.4rem;
+}
+
+#footer-logo {
+  filter: brightness(0) invert(100%);
+}
+
+.footer__lists {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  font-size: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+.footer__icon-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer__phone:hover {
+  text-decoration: underline;
+}
+
+.footer__email:hover {
+  text-decoration: underline;
+}
+
+.footer__phone {
+  display: flex;
+  gap: 2.4rem;
+}
+.footer__email {
+  display: flex;
+  gap: 2.4rem;
+}
+.footer__phone-icon {
+  width: 8%;
+  height: 8%;
+}
+.footer__email-icon {
+  width: 8%;
+  height: 8%;
+}
+.footer__first-list-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer__first-list-ul li:hover {
+  text-decoration: underline;
+}
+
+.footer__second-list-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer__second-list-ul li:hover {
+  text-decoration: underline;
+}
+
+.footer__social-list-ul li {
+  display: inline-block;
+  margin-right: 1.2rem;
+}
+
+.footer__social-list-ul li:last-child {
+  display: inline-block;
+  margin-right: 0;
+}
+
+.la-instagram,
+.la-twitter,
+.la-facebook-f {
+  font-size: 2rem;
+  border: 1px solid #f6f6fe;
+  border-radius: 50%;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+.attribution {
+  margin-top: 12.8rem;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #f6f6fe;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #97a4da;
+}
