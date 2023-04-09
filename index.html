@@ -36,7 +36,7 @@
       <!-- Hero Section -->
       <section class="hero">
         <div class="hero__first-container">
-          <h1 class="hero__heading heading">
+          <h1 class="hero__heading">
             All your files in one secure location, accessible anywhere.
           </h1>
           <p class="hero__paragraph paragraph">
@@ -44,13 +44,17 @@
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
-          <input
-            placeholder="Enter your email..."
-            type="email"
-            name="email"
-            id="hero-email"
-          />
-          <a href="#" class="hero__btn">Get Started</a>
+          <div>
+            <input
+              placeholder="Enter your email..."
+              type="email"
+              name="email"
+              id="hero-email"
+            />
+            <a class="hero__btn" type="submit" for="hero-email">
+              Get Started
+            </a>
+          </div>
         </div>
         <div class="hero__second-container">
           <img
@@ -175,9 +179,8 @@
               class="footer__phone-icon"
             />
             <p class="footer__phone-text">
-              Phone:
               <a href="tel:+1-543-123-4567" class="footer__link"
-                >+1-543-123-4567</a
+                >Phone: +1-543-123-4567</a
               >
             </p>
           </div>
